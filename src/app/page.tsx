@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { ConnectButton, MediaRenderer, TransactionButton, useActiveAccount, useReadContract } from "thirdweb/react";
-import webIcon from "./favicon.ico";
 import { client } from "./client";
 import { defineChain, getContract, toEther } from "thirdweb";
 import { sepolia } from "thirdweb/chains";
@@ -56,7 +55,7 @@ export default function Home() {
           chain={chain}
         />
 
-        <div className="flex flex-col py-10 px-10 items-center mt-4">
+        <div className="flex flex-col py-5 items-center mt-4">
           {isContractMetadataLoading ? (
             <p>Loading...</p>
           ) : (
@@ -64,12 +63,12 @@ export default function Home() {
               <MediaRenderer
                 client={client}
                 src={contractMetadata?.image}
-                className="rounded-xl"
+                className="border border-solid border-300 rounded-xl"
               />
               <h2 className="text-2xl font-semibold mt-4">
                 {contractMetadata?.name}
               </h2>
-              <p className="text-lg mt-2">
+              <p className="text-lg mt-2 pbottom-10">
                 {contractMetadata?.description}
               </p>
             </>
@@ -85,7 +84,7 @@ export default function Home() {
 
           <div className="flex flex-row items-center justify-center my-4">
             <button 
-              className="text-white p-5 mr-4"
+              className="text-xl text-white p-5 mr-4"
               onClick={() => setQuantity(Math.max(1, quantity-1))}
             >-</button>
             <input 
@@ -95,7 +94,7 @@ export default function Home() {
               className="w-20 py-2 text-center border border-gray-300 rounded-md bg-black text-white" 
             />
             <button 
-              className="text-white p-5 mr-4"
+              className="text-xl text-white p-5 mr-4"
               onClick={() => setQuantity((quantity+1))}
             >+</button>
           </div>
@@ -123,10 +122,10 @@ export default function Home() {
 function Header() {
   return (
     <header className="flex flex-col items-center">
-      <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
+      <h1 className="text-3xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
         UIT Graduation Certificate
       </h1>
-      <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
+      <h1 className="pbottom-10 text-3xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
         NFT - ERC721
       </h1>
     </header>
