@@ -1,9 +1,9 @@
 'use client';
 
-import Image from "next/image";
+import "./design.css";
 import { ConnectButton, MediaRenderer, TransactionButton, useActiveAccount, useReadContract } from "thirdweb/react";
 import { client } from "./client";
-import { defineChain, getContract, toEther } from "thirdweb";
+import { defineChain, getContract } from "thirdweb";
 import { sepolia } from "thirdweb/chains";
 import { getContractMetadata } from "thirdweb/extensions/common";
 import { claimTo, getActiveClaimCondition, getTotalClaimedSupply, nextTokenIdToMint } from "thirdweb/extensions/erc721";
@@ -63,12 +63,12 @@ export default function Home() {
               <MediaRenderer
                 client={client}
                 src={contractMetadata?.image}
-                className="border border-solid border-300 rounded-xl"
+                className="border border-solid border-logo-300 rounded-xl"
               />
               <h2 className="text-2xl font-semibold mt-4">
                 {contractMetadata?.name}
               </h2>
-              <p className="text-lg mt-2 pbottom-10">
+              <p className="text-lg mt-2 pb-10">
                 {contractMetadata?.description}
               </p>
             </>
@@ -77,7 +77,7 @@ export default function Home() {
           {isClaimedSupplyLoading || isTotalSupplyLoading ? (
             <p>Loading...</p>
           ) : (
-            <p className="text-lg mt-2 font-bold">
+            <p className="text-lg mt-2 font-semibold">
               Total NFT Supply: {claimedSupply?.toString()}/{totalNFTSupply?.toString()}
             </p>
           )}
@@ -125,7 +125,7 @@ function Header() {
       <h1 className="text-3xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
         UIT Graduation Certificate
       </h1>
-      <h1 className="pbottom-10 text-3xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
+      <h1 className="pb-10 text-3xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
         NFT - ERC721
       </h1>
     </header>

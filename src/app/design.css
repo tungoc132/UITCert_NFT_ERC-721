@@ -493,7 +493,7 @@
   }
 	  body {
 	--tw-bg-opacity: 1;
-	background-color: rgb(9 9 11 / var(--tw-bg-opacity));
+	background-image: linear-gradient(to right, #00b09b, #96c93d);
 	--tw-text-opacity: 1;
 	color: rgb(229 229 229 / var(--tw-text-opacity));
 		  font-size: large;
@@ -690,7 +690,7 @@
 	border-radius: 0.75rem;
   }
   .border {
-	border-width: 1px;
+	border-width: 2px;
   }
   .border-solid {
 	border-style: solid;
@@ -698,6 +698,11 @@
   .border-gray-300 {
 	--tw-border-opacity: 1;
 	border-color: rgb(209 213 219 / var(--tw-border-opacity));
+  }
+  .border-logo-300 {
+    --tw-border-opacity: 1;
+    border-color: whitesmoke;
+    padding: 20px;
   }
   .bg-black {
 	--tw-bg-opacity: 1;
@@ -728,19 +733,20 @@
 	text-align: center;
   }
   .text-2xl {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	line-height: 2rem;
   }
   .text-3xl {
-	font-size: 1.875rem;
+	font-size: 3.5rem;
 	line-height: 2.25rem;
+  padding-bottom: 5px;
   }
   .text-lg {
-	font-size: 1.125rem;
+	font-size: 1.5rem;
 	line-height: 1.75rem;
   }
   .text-xl {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	line-height: 1.75rem;
   }
   .font-bold {
