@@ -1,0 +1,31 @@
+{
+    "name": "UIT Graduation Certificate #5",
+    "description": "UIT Bachelor's degree",
+    "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/5.png",
+    "attributes": [
+      {
+        "trait_type": "Fullname",
+        "value": "Dang Huu Hanh"
+      },
+      {
+        "trait_type": "Birth",
+        "value": "10/08/2002"
+      },
+      {
+        "trait_type": "Student_ID",
+        "value": "20528379"
+      },
+      {
+        "trait_type": "Major:",
+        "value": "Intergrated Circuit Design"
+      },
+      {
+        "trait_type": "GPA:",
+        "value": "8.5"
+      },
+      {
+        "trait_type": "Classification:",
+        "value": "Very Good"
+      }
+    ]
+  }

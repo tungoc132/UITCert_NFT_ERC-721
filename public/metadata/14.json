@@ -1,0 +1,31 @@
+{
+    "name": "UIT Graduation Certificate #14",
+    "description": "UIT Bachelor's degree",
+    "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/14.png",
+    "attributes": [
+      {
+        "trait_type": "Fullname",
+        "value": "Le Tu Vu"
+      },
+      {
+        "trait_type": "Birth",
+        "value": "11/01/2002"
+      },
+      {
+        "trait_type": "Student_ID",
+        "value": "20525506"
+      },
+      {
+        "trait_type": "Major:",
+        "value": "E-Commerce"
+      },
+      {
+        "trait_type": "GPA:",
+        "value": "7.4"
+      },
+      {
+        "trait_type": "Classification:",
+        "value": "Good"
+      }
+    ]
+  }

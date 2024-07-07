@@ -1,0 +1,31 @@
+{
+    "name": "UIT Graduation Certificate #16",
+    "description": "UIT Bachelor's degree",
+    "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/16.png",
+    "attributes": [
+      {
+        "trait_type": "Fullname",
+        "value": "Truong Tu Phat"
+      },
+      {
+        "trait_type": "Birth",
+        "value": "02/11/2002"
+      },
+      {
+        "trait_type": "Student_ID",
+        "value": "20528546"
+      },
+      {
+        "trait_type": "Major:",
+        "value": "Computer Science"
+      },
+      {
+        "trait_type": "GPA:",
+        "value": "7.2"
+      },
+      {
+        "trait_type": "Classification:",
+        "value": "Good"
+      }
+    ]
+  }

@@ -1,0 +1,31 @@
+{
+    "name": "UIT Graduation Certificate #6",
+    "description": "UIT Bachelor's degree",
+    "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/6.png",
+    "attributes": [
+      {
+        "trait_type": "Fullname",
+        "value": "Le Tu Dung"
+      },
+      {
+        "trait_type": "Birth",
+        "value": "14/09/2002"
+      },
+      {
+        "trait_type": "Student_ID",
+        "value": "20522148"
+      },
+      {
+        "trait_type": "Major:",
+        "value": "Computer Science"
+      },
+      {
+        "trait_type": "GPA:",
+        "value": "8.6"
+      },
+      {
+        "trait_type": "Classification:",
+        "value": "Very Good"
+      }
+    ]
+  }

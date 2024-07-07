@@ -1,0 +1,31 @@
+{
+    "name": "UIT Graduation Certificate #13",
+    "description": "UIT Bachelor's degree",
+    "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/13.png",
+    "attributes": [
+      {
+        "trait_type": "Fullname",
+        "value": "Truong Quoc Vu"
+      },
+      {
+        "trait_type": "Birth",
+        "value": "28/02/2002"
+      },
+      {
+        "trait_type": "Student_ID",
+        "value": "20522928"
+      },
+      {
+        "trait_type": "Major:",
+        "value": "Computer Networks and Communications"
+      },
+      {
+        "trait_type": "GPA:",
+        "value": "9.6"
+      },
+      {
+        "trait_type": "Classification:",
+        "value": "Excellent"
+      }
+    ]
+  }

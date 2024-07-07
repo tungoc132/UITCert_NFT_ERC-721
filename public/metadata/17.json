@@ -1,0 +1,31 @@
+{
+    "name": "UIT Graduation Certificate #17",
+    "description": "UIT Bachelor's degree",
+    "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/17.png",
+    "attributes": [
+      {
+        "trait_type": "Fullname",
+        "value": "Dang Hieu Bao"
+      },
+      {
+        "trait_type": "Birth",
+        "value": "10/06/2002"
+      },
+      {
+        "trait_type": "Student_ID",
+        "value": "20529892"
+      },
+      {
+        "trait_type": "Major:",
+        "value": "Computer Networks and Communications"
+      },
+      {
+        "trait_type": "GPA:",
+        "value": "9.4"
+      },
+      {
+        "trait_type": "Classification:",
+        "value": "Excellent"
+      }
+    ]
+  }

@@ -13,10 +13,12 @@
 	font-optical-sizing: auto;
 	font-style: normal;
 	font-variation-settings: 'slnt' 0;
+	background-color: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 
 @layer base {
 	body {
 		@apply bg-zinc-950 text-neutral-200;
+		font-size: large;
 	}
 }

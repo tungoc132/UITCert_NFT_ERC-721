@@ -1,0 +1,31 @@
+{
+  "name": "UIT Graduation Certificate #1",
+  "description": "UIT Bachelor's degree",
+  "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/1.png",
+  "attributes": [
+    {
+      "trait_type": "Fullname",
+      "value": "Tran Diep Dung"
+    },
+    {
+      "trait_type": "Birth",
+      "value": "06/10/2002"
+    },
+    {
+      "trait_type": "Student_ID",
+      "value": "20521234"
+    },
+    {
+      "trait_type": "Major",
+      "value": "Computer Engineering"
+    },
+    {
+      "trait_type": "GPA",
+      "value": "8.6"
+    },
+    {
+      "trait_type": "Classification",
+      "value": "Very Good"
+    }
+  ]
+}

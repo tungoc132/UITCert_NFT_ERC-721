@@ -1,0 +1,31 @@
+{
+    "name": "UIT Graduation Certificate #4",
+    "description": "UIT Bachelor's degree",
+    "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/4.png",
+    "attributes": [
+      {
+        "trait_type": "Fullname",
+        "value": "Dang Thanh Vu"
+      },
+      {
+        "trait_type": "Birth",
+        "value": "03/08/2002"
+      },
+      {
+        "trait_type": "Student_ID",
+        "value": "20523464"
+      },
+      {
+        "trait_type": "Major:",
+        "value": "Software Engineering"
+      },
+      {
+        "trait_type": "GPA:",
+        "value": "8.1"
+      },
+      {
+        "trait_type": "Classification:",
+        "value": "Very Good"
+      }
+    ]
+  }

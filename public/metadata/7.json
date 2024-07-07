@@ -1,0 +1,31 @@
+{
+    "name": "UIT Graduation Certificate #7",
+    "description": "UIT Bachelor's degree",
+    "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/7.png",
+    "attributes": [
+      {
+        "trait_type": "Fullname",
+        "value": "Dang Huu Bao"
+      },
+      {
+        "trait_type": "Birth",
+        "value": "30/10/2002"
+      },
+      {
+        "trait_type": "Student_ID",
+        "value": "20524357"
+      },
+      {
+        "trait_type": "Major:",
+        "value": "Data Science"
+      },
+      {
+        "trait_type": "GPA:",
+        "value": "8.7"
+      },
+      {
+        "trait_type": "Classification:",
+        "value": "Very Good"
+      }
+    ]
+  }

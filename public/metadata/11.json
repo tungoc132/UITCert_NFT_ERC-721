@@ -1,0 +1,31 @@
+{
+    "name": "UIT Graduation Certificate #11",
+    "description": "UIT Bachelor's degree",
+    "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/11.png",
+    "attributes": [
+      {
+        "trait_type": "Fullname",
+        "value": "Tran Quoc Bao"
+      },
+      {
+        "trait_type": "Birth",
+        "value": "24/09/2002"
+      },
+      {
+        "trait_type": "Student_ID",
+        "value": "20529954"
+      },
+      {
+        "trait_type": "Major:",
+        "value": "Information Technology"
+      },
+      {
+        "trait_type": "GPA:",
+        "value": "9.8"
+      },
+      {
+        "trait_type": "Classification:",
+        "value": "Excellent"
+      }
+    ]
+  }

@@ -1,0 +1,31 @@
+{
+    "name": "UIT Graduation Certificate #9",
+    "description": "UIT Bachelor's degree",
+    "image": "https://ipfs.io/ipfs/QmXCvABgXbDkQnsmWWR8u4MuQKzZ7asT2BjDdRDU6cKN8n/9.png",
+    "attributes": [
+      {
+        "trait_type": "Fullname",
+        "value": "Dang Thanh Truc"
+      },
+      {
+        "trait_type": "Birth",
+        "value": "13/02/2002"
+      },
+      {
+        "trait_type": "Student_ID",
+        "value": "20522111"
+      },
+      {
+        "trait_type": "Major:",
+        "value": "Artificial Intelligence"
+      },
+      {
+        "trait_type": "GPA:",
+        "value": "9.3"
+      },
+      {
+        "trait_type": "Classification:",
+        "value": "Excellent"
+      }
+    ]
+  }
