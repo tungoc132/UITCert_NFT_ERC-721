@@ -106,11 +106,11 @@ export default function Home() {
               quantity: BigInt(quantity),
             })}
             onTransactionConfirmed={async () => {
-              alert("NFT Claimed!");
+              alert("NFT Bought!");
               setQuantity(1);
             }}
           >
-            {`Claim NFT (${getPrice(quantity)} ETH)`}
+            {`Buy NFT (${getPrice(quantity)} ETH)`}
           </TransactionButton>
 
         </div>
