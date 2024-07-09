@@ -1,4 +1,4 @@
-const hre = import("hardhat");
+const hre = import("thirdweb");
 
 async function main(){
     const UITCertificate = await hre.ethers.getContractFactory("UITCertificate");

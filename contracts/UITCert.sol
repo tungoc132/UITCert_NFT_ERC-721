@@ -3,8 +3,6 @@ pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract UITCertificate is ERC721URIStorage {
     using Counters for Counters.counter;
@@ -23,35 +21,6 @@ contract UITCertificate is ERC721URIStorage {
         _tokenIdCounter.increment();
         _safeMint(msg.sender, studentID);
         _setTokenURI(studentID, tokenURI);
-    }
-
-    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage) {
-        super._burn(tokenId);
-    }
-
-    function tokenURI(uint256 tokenId) public view override(ERC721, ERC721URIStorage) returns (string memory) {
-        return super.tokenURI(tokenId);
-    }
-
-    function isContentOwned(string memory uri) public view returns (bool){
-        return existingURIs[uri] == 1;
-    }
-
-    function paytoMint(
-        address recipient,
-        string memory metadataURI
-    ) public payable returns (uint256) {
-        require(existingURIs[metadataURI] !=1, 'NFT already minted!');
-        require(msg.value >= 0.05 ether, 'Need to pay up!');
-
-        uint256 newItemId = _tokenIdCounter.current();
-        _tokenIdCounter.increment();
-        existingURIs[metadataURI] =1;
-
-        _mint(recipient, newItemId);
-        _setTokenURI(newItemId, metadataURI);
-
-        return newItemId;
     }
 
     function count() public view returns (uint256) {
