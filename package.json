@@ -11,6 +11,8 @@
   "dependencies": {
     "@thirdweb-dev/react": "^4.9.4",
     "@thirdweb-dev/sdk": "^4.0.99",
+    "alchemy-sdk": "^3.3.1",
+    "dotenv": "^16.4.5",
     "ethers": "^5.7.2",
     "next": "14.1.0",
     "react": "^18.3",

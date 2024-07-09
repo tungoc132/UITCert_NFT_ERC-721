@@ -65,10 +65,10 @@ export default function Home() {
                 src={contractMetadata?.image}
                 className="border border-solid border-logo-300 rounded-xl"
               />
-              <h2 className="text-2xl font-semibold mt-4">
+              <h2 className="text-2xl font-semibold mt-4 text-white">
                 {contractMetadata?.name}
               </h2>
-              <p className="text-lg mt-2 pb-10">
+              <p className="text-lg mt-2 pb-10 text-white">
                 {contractMetadata?.description}
               </p>
             </>
@@ -77,7 +77,7 @@ export default function Home() {
           {isClaimedSupplyLoading || isTotalSupplyLoading ? (
             <p>Loading...</p>
           ) : (
-            <p className="text-lg mt-2 font-semibold">
+            <p className="text-lg mt-2 font-semibold text-white">
               Total NFT Supply: {claimedSupply?.toString()}/{totalNFTSupply?.toString()}
             </p>
           )}
