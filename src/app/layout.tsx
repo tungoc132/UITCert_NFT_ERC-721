@@ -6,7 +6,7 @@ import { ThirdwebProvider } from "thirdweb/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "WEB 3.0 - ERC721",
+  title: "e-Diploma UIT",
 };
 
 export default function RootLayout({

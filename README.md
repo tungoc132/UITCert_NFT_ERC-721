@@ -3,7 +3,7 @@
 Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
 
 ```bash
-  npx thirdweb create app --next
+  npx thirdweb init app
 ```
 
 ## Environment Variables
@@ -12,4 +12,15 @@ To run this project, you will need to add the following environment variables to
 
 `CLIENT_ID`
 
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
+## Deploy Contract
+
+```bash
+  npx thirdweb deploy
+```
+
+## Run localhost
+
+```bash
+  cd web3app
+  npm run dev
+```
